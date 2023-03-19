@@ -13,10 +13,10 @@ This is a simple personal web portfolio built with ReactJS and TailwindCSS. It i
 - Boxicons
 
 ## Todo List
-- [x] Add a dark mode
-- [x] Add a light mode
+- [ ] Add a dark mode
+- [ ] Add a light mode
 - [x] Add a responsive design
-- [x] Add a contact form
-- [x] Add a loading screen
-- [x] Add a 404 page
-- [x] Add a favicon
+- [ ] Add a contact form
+- [ ] Add a loading screen
+- [ ] Add a 404 page
+- [ ] Add a favicon
