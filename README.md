@@ -14,7 +14,7 @@ This is a simple personal web portfolio built with ReactJS and TailwindCSS. It i
 
 ## Todo List
 - [ ] Add a dark mode
-- [ ] Add a light mode
+- [x] Add a light mode
 - [x] Add a responsive design
 - [ ] Add a contact form
 - [ ] Add a loading screen
