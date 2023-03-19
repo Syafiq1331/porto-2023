@@ -16,7 +16,7 @@ const Header = () => {
           >
             A software engineering student at polytechnic IDN & someone who enthusiast about front end web developer. I always want make something great with my code, experience and my little bit knowledge.
           </p>
-          <a href="http://" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/1LOm3S79FrLK__p2GoSPEjiGmt47-mWgx/view?usp=share_link" target="_blank" rel="noopener noreferrer">
             <button className="bg-[#FF6464] px-6 py-3 rounded-lg text-white mx-auto lg:mx-0 block mt-5">Download CV</button>
           </a>
         </div>
