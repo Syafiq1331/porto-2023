@@ -20,3 +20,5 @@ This is a simple personal web portfolio built with ReactJS and TailwindCSS. It i
 - [ ] Add a loading screen
 - [ ] Add a 404 page
 - [ ] Add a favicon
+- [ ] Make it a PWA
+- [ ] Make it a SPA
