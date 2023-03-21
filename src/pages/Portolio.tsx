@@ -15,18 +15,26 @@ import minimalistResume from '../../public/projects/minimalistResume.png';
 import ReactTodoSimple from '../../public/projects/ReactTodoSimple.png';
 import tugasKuliah__1 from '../../public/projects/tugasKuliah__1.png';
 import waktuSholat from '../../public/projects/waktuSholat.png';
+import pokeApps from '../../public/projects/pokeApps.png';
 
 const Portfolio = () => {
   return (
     <div className='bg-[#EDF7FA]'>
       <div className='container mx-auto py-4'>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-4 my-4'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10 mx-4 my-4'>
           <Card
             image={idn}
             link='https://polytechinc-idn.vercel.app/'
             title='Polytechinc IDN landing page'
             desc='Landing page about polytechinc IDN Bogor, Indonesia.'
             tech_1='Vercel' tech_2='Tailwindcss' tech_3='React Js'
+          />
+          <Card
+            image={pokeApps}
+            link='https://syafiq1331.github.io/tekajefest/'
+            title='Tekaje fest landing page'
+            desc='Landing page about polytechinc IDN Bogor, Indonesia.'
+            tech_1='Bootstrap 5' tech_2='Sass' tech_3='Github pages'
           />
           <Card
             image={tekaje}
