@@ -1,7 +1,26 @@
 import Navbar from './Navbar'
 import profile from '../../public/profile.jpg'
+import Typed from 'typed.js'
+import { useEffect, useRef } from 'react';
 
 const Header = () => {
+  const el = useRef(null);
+
+  useEffect(() => {
+    const options = {
+      strings: ['Frontend Engineer', 'Software Engineering Student', 'Web Developer', 'Online course mentor'],
+      typeSpeed: 50,
+      backSpeed: 60,
+      loop: true,
+    };
+
+    const typed = new Typed(el.current, options);
+
+    return () => {
+      typed.destroy();
+    }
+  }, []);
+
   return (
     <header className='container mx-auto mb-12 lg:mb-0'>
       <div className='flex flex-wrap lg:flex-nowrap lg:mx-24 lg:mt-32 lg:mb-64 lg:items-center lg:justify-items-between'>
@@ -9,7 +28,9 @@ const Header = () => {
 
         <div className='mt-5 lg:order-1 order-2'>
           <h1 className="text-3xl lg:text-4xl font-bold text-center lg:text-start">Syafiq Rizky Fauzi</h1>
-          <h2 className="text-xl lg:text-2xl text-center lg:text-start lg:mt-1">Frontend Developer</h2>
+          <div className='w-full text-center lg:text-start'>
+            <span className="text-xl lg:text-2xl lg:text-start lg:mt-1" ref={el}></span>
+          </div>
           <p
             className='px-6 md:px-24 lg:px-0 lg:w-[45rem] text-md md:text-xl text-center lg:text-start text-gray-500 mt-2'
           >
