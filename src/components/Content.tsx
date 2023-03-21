@@ -1,5 +1,6 @@
 import React from 'react'
 import Work from './Work'
+import Testimonial from './Testimonial'
 
 const Content = () => {
   return (
