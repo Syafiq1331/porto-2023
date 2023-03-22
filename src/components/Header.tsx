@@ -1,5 +1,6 @@
 import Navbar from './Navbar'
 import profile from '../../public/profile.jpg'
+import profilePengganti from '../../public/profile_pengganti.jpg'
 import Typed from 'typed.js'
 import { useEffect, useRef } from 'react';
 
@@ -24,7 +25,7 @@ const Header = () => {
   return (
     <header className='container mx-auto mb-12 lg:mb-0'>
       <div className='flex flex-wrap lg:flex-nowrap lg:mx-24 lg:mt-32 lg:mb-64 lg:items-center lg:justify-items-between'>
-        <img src={profile} alt="Syafiq Rizky Fauzi" className="lg:order-2 order-1 rounded-full w-32 md:w-48 lg:w-64 md:h-48 lg:h-64 h-32 mx-auto" />
+        <img src={profilePengganti} alt="Syafiq Rizky Fauzi" className="lg:order-2 order-1 rounded-full w-32 md:w-48 lg:w-64 md:h-48 lg:h-64 h-32 mx-auto" />
 
         <div className='mt-5 lg:order-1 order-2'>
           <h1 className="text-3xl lg:text-4xl font-bold text-center lg:text-start">Syafiq Rizky Fauzi</h1>
