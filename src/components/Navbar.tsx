@@ -1,7 +1,4 @@
-import { BrowserRouter, Link, Routes, Route } from 'react-router-dom';
-import toggle from '../../public/menu-toggle.svg';
-import Router from '../routes/Routes';
-import Header from './Header';
+import { Link } from 'react-router-dom';
 
 const Navbars = () => {
   return (
@@ -10,7 +7,7 @@ const Navbars = () => {
 }
 
 interface IProps {
-  children: React.ReactNode
+  children?: React.ReactNode
 }
 
 const Navbar = ({ children }: IProps) => {
@@ -35,6 +32,11 @@ const Navbar = ({ children }: IProps) => {
                 </li>
                 <li className='mx-1'>
                   <Link to={'contact'}>Contact</Link>
+                </li>
+                <li className='mx-1'>
+                  <button>
+
+                  </button>
                 </li>
               </ul>
             </div>
