@@ -5,7 +5,7 @@
 This is a simple personal web portfolio built with ReactJS and TailwindCSS. It is a single page application with a responsive design. It is a static website that can be hosted on any web server.
 
 ## Stack
-- ReactJS
+- ReactTs
 - TailwindCSS
 - React Router
 - Typescript
@@ -13,12 +13,12 @@ This is a simple personal web portfolio built with ReactJS and TailwindCSS. It i
 - Boxicons
 
 ## Todo List
-- [ ] Add a dark mode
+- [x] Add a dark mode
 - [x] Add a light mode
 - [x] Add a responsive design
 - [ ] Add a contact form
 - [ ] Add a loading screen
-- [ ] Add a 404 page
+- [x] Add a 404 page
 - [ ] Add a favicon
 - [ ] Make it a PWA
 - [ ] Make it a SPA
