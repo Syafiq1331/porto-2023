@@ -1,18 +1,16 @@
-import React from 'react'
-import { useEffect } from "react";
 import Card from './Card'
-import idn from '../../public/projects/idn_landingPage.png'
-import tekaje from '../../public/projects/tekaje_landingPage.png'
-import bookshelf from '../../public/projects/bookshelf__App.png'
-import pemudacoding from '../../public/projects/pemudacoding__company.png';
+import idn from '../assets/projects/idn_landingPage.png'
+import tekaje from '../assets/projects/tekaje_landingPage.png'
+import bookshelf from '../assets/projects/bookshelf__App.png'
+import pemudacoding from '../assets/projects/pemudacoding__company.png';
 
 const Work = () => {
 
   return (
-    <div className='bg-[#EDF7FA]'>
+    <div className='bg-[#EDF7FA] dark:bg-gray-900'>
       <div className='container mx-auto py-4 '>
         <div className='flex justify-between px-6 py-4'>
-          <p className='font-semibold'>Recent projects</p>
+          <p className='font-semibold dark:text-white'>Recent projects</p>
           <a href=" " className='text-sky-500'>View All</a>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-8 mx-4 my-4 pb-6 lg:px-24 md:px-10 px-2'>
