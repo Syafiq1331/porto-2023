@@ -7,7 +7,7 @@ import pemudacoding from '../assets/projects/pemudacoding__company.png';
 const Work = () => {
 
   return (
-    <div className='bg-[#EDF7FA] dark:bg-gray-900'>
+    <div className='bg-gray-900'>
       <div className='container mx-auto py-4 '>
         <div className='flex justify-between px-6 py-4'>
           <p className='font-semibold dark:text-white'>Recent projects</p>
