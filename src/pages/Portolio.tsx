@@ -20,7 +20,7 @@ import Footer from '../components/Footer'
 const Portfolio = () => {
   return (
     <>
-      <div className='bg-[#EDF7FA] dark:bg-gray-900'>
+      <div className='bg-gray-900'>
         <div className='container mx-auto py-4'>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10 mx-4 my-4'>
             <Card
@@ -137,7 +137,7 @@ const Portfolio = () => {
             />
           </div>
         </div>
-      </div>
+      </div >
       <Footer />
     </>
   )
