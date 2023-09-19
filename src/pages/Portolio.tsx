@@ -20,12 +20,12 @@ import Footer from '../components/Footer'
 const Portfolio = () => {
   return (
     <>
-      <div className='bg-gray-900'>
+      <div className='dark:bg-gray-900 bg-gray-100'>
         <div className='container mx-auto py-4'>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10 mx-4 my-4'>
             <Card
               image={idn}
-              link='https://polytechinc-idn.vercel.app/'
+              link='https://idn.ac.id/'
               title='Polytechinc IDN landing page'
               desc='Landing page about polytechinc IDN Bogor, Indonesia.'
               tech_1='Vercel' tech_2='Tailwindcss' tech_3='React Js'

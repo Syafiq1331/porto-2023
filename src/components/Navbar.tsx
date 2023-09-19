@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import DarkModeToggle from './DarkModeToggle';
 
 const Navbars = () => {
   return (
@@ -14,13 +15,18 @@ const Navbar = ({ children }: IProps) => {
   return (
     <>
       <nav>
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-gray-50 dark:bg-slate-700 dark:text-white">
+          <li className='mx-1 navbar-start lg:block hidden ml-6'>
+            <Link to={'/'}>
+              <p className='font-bold'>Syafiqrzf</p>
+            </Link>
+          </li>
           <div className="navbar-start">
-            <div className="dropdown">
+            <div className="dropdown ">
               <label tabIndex={0} className="btn btn-ghost lg:hidden">
                 <i className='bx bx-menu text-2xl'></i>
               </label>
-              <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+              <ul tabIndex={0} className="menu dark:bg-slate-700 dark:text-white menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52">
                 <li className='mx-1'>
                   <Link to={'/'}>Home</Link>
                 </li>
@@ -33,16 +39,14 @@ const Navbar = ({ children }: IProps) => {
                 <li className='mx-1'>
                   <Link to={'contact'}>Contact</Link>
                 </li>
-                <li className='mx-1'>
-                  <button>
-
-                  </button>
-                </li>
               </ul>
             </div>
           </div>
+          <li className='mx-1 navbar-end lg:hidden'>
+            <DarkModeToggle />
+          </li>
           <div className="navbar-end hidden lg:flex">
-            <ul className="menu menu-horizontal px-1">
+            <ul className="menu menu-horizontal px-1 ">
               <li className='mx-1'>
                 <Link to={'/'}>Home</Link>
               </li>
@@ -54,6 +58,9 @@ const Navbar = ({ children }: IProps) => {
               </li>
               <li className='mx-1'>
                 <Link to={'contact'}>Contact</Link>
+              </li>
+              <li className='mx-1'>
+                <DarkModeToggle />
               </li>
             </ul>
           </div>

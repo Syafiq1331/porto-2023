@@ -10,8 +10,8 @@ const Footer: React.FC<FooterProps> = ({ }) => {
 
   return (
     <>
-      <footer className="text-center my-6 text-slate-500/70">
-        <hr className='w-24 mx-auto mb-4 ' />
+      <footer className="text-center py-6 text-slate-500/70 dark:bg-slate-700 dark:text-white">
+        <hr className='w-24 mx-auto pb-4 ' />
         {getYearAutomation()} © Syafiq Rizky Fauzi
       </footer>
     </>
